@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Ganti content="YOUR_VERIFICATION_CODE" dengan kode verifikasi GSC KELIR dc nantinya -->
     <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE" />
 	
     <!-- META PER PAGE (Clickbait + SEO) -->
     <title>Konsultan SDM & Psikologi KELIR dc | Intervensi EAP Jogja - Jateng</title>
     <meta name="description" content="KELIR dc: Hentikan badai turnover & karyawan burnout dengan intervensi psikologis dari akarnya. Spesialis EAP, Training HRD BNSP, & Trauma Healing area DIY & Jateng.">
     <meta name="robots" content="index, follow">
-    <meta name="theme-color" content="#b91c1c"> <!-- Warna Merah KELIR dc -->
+    <meta name="theme-color" content="#b91c1c"> 
     
+    <link rel="preload" as="image" href="img/lembaga-pengembangan-sdm-psikologi-kelirdc-utama.webp" fetchpriority="high">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -55,7 +56,6 @@
           "relatedLink": [
              "https://wa.me/6281326211319", 
              "https://wa.me/6285729028564"
-             /* Tempat untuk 7 URL Silo nanti */
           ]
         },
         {
@@ -96,7 +96,6 @@
 
         /* [ATTENTION] HERO SECTION */
         .hero { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: var(--darker); overflow: hidden; }
-        /* Placeholder Hero Image - Nanti ganti path img-nya */
         .hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; opacity: 0.6; filter: grayscale(50%) contrast(1.2); } 
         .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(2,6,23,0.6), rgba(0,0,0,0.9)); z-index: 2; }
         .hero-content { position: relative; z-index: 3; max-width: 1000px; padding: 0 1.5rem; margin-top: 60px; }
@@ -113,8 +112,9 @@
         .btn-wa:hover { background: #128C7E; transform: translateY(-3px); }
         
         /* [DESIRE] THE SILO HUB CARDS */
-        .card { background: var(--secondary); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; transition: 0.3s; text-decoration: none; color: inherit; display: flex; flex-direction: column; justify-content: space-between; height: 100%; border-top: 4px solid var(--secondary); }
+        .card { background: var(--secondary); border: 1px solid var(--border); border-radius: 16px; padding: 2rem; transition: 0.3s; text-decoration: none; color: inherit; display: flex; flex-direction: column; justify-content: space-between; height: 100%; border-top: 4px solid var(--secondary); overflow: hidden; }
         .card:hover { transform: translateY(-8px); border-color: var(--border); border-top-color: var(--primary); box-shadow: 0 20px 40px rgba(0,0,0,0.5); }
+        .card img { width: calc(100% + 4rem); max-width: none; margin: -2rem -2rem 1.5rem -2rem; aspect-ratio: 16/9; object-fit: cover; }
         .card h3 { font-size: 1.3rem; margin-bottom: 1rem; color: #fff; }
         .card p { color: #94a3b8; font-size: 0.95rem; margin-bottom: 1.5rem; }
         .card-btn { background: rgba(255,255,255,0.05); color: var(--primary); padding: 0.8rem 1rem; border-radius: 6px; text-align: center; font-weight: 700; transition: 0.3s; border: 1px solid rgba(234,88,12,0.2); }
@@ -145,8 +145,7 @@
 
     <!-- 1. [ATTENTION] HERO SECTION -->
     <header class="hero">
-        <!-- Ganti src dengan foto heroik yang paling kuat -->
-        <img src="img/hero-kelir-dc.jpg" alt="Training Psikologi SDM KELIR dc" class="hero-bg" fetchpriority="high" loading="eager" decoding="sync">
+        <img src="img/lembaga-pengembangan-sdm-psikologi-kelirdc-utama.webp" alt="Sesi interaktif lembaga pengembangan sdm berbasis psikologi kelir dc untuk atasi karyawan burnout" class="hero-bg" fetchpriority="high" loading="eager" decoding="sync">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Mesin Produksi Terus Menyala, Tapi <span class="text-accent">Mental Karyawan Anda</span> Perlahan Hancur?</h1>
@@ -183,16 +182,30 @@
 
             <p style="max-width:800px;margin:0 auto;font-size:1.1rem;color:#94a3b8;margin-bottom:3rem;">Tim KELIR dc diisi oleh <strong>Master Trainer tersertifikasi BNSP Level 6</strong>, Instruktur Hipnoterapi, dan ahli Art Therapy. Kami menangani krisis korporat dengan standar kerahasiaan tinggi (trauma-informed).</p>
 
-            <!-- Ganti src dengan 15 foto portofolio lainnya -->
             <div class="gallery-grid">
-                <div class="gallery-item"><img src="img/porto-1.jpg" alt="Sesi Outbound" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-2.jpg" alt="Art Therapy" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-3.jpg" alt="Konseling" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-4.jpg" alt="Simulasi" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-5.jpg" alt="Training BNSP" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-6.jpg" alt="Hipnoterapi" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-7.jpg" alt="Sesi EAP" loading="lazy"></div>
-                <div class="gallery-item"><img src="img/porto-8.jpg" alt="Leadership Training" loading="lazy"></div>
+                <!-- Kloter 1: Dominasi Yogyakarta & Sleman -->
+                <div class="gallery-item"><img src="img/training-human-capital-bnsp-sleman-jogja.webp" alt="Antusiasme peserta training human capital tersertifikasi bnsp di sleman yogyakarta" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/pendampingan-konseling-eap-karyawan-yogyakarta.webp" alt="Sesi pendampingan konseling eap untuk atasi stres kerja karyawan di yogyakarta" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/biro-psikologi-organisasi-ugm-kelirdc.webp" alt="Tim biro psikologi kelir dc memberikan materi pengembangan organisasi untuk mitra ugm" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/sertifikasi-hrd-level-6-experiential-learning.webp" alt="Praktik experiential learning dalam kelas sertifikasi hrd level 6 di jogja" loading="lazy" decoding="async"></div>
+
+                <!-- Kloter 2: Dominasi Jawa Tengah & Semarang -->
+                <div class="gallery-item"><img src="img/pelatihan-kecerdasan-emosional-pabrik-semarang.webp" alt="Pelatihan kecerdasan emosional untuk meningkatkan produktivitas buruh pabrik semarang" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/outbound-leadership-mind-power-jawa-tengah.webp" alt="Simulasi outbound pelatihan leadership mind power untuk manajer se jawa tengah" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/program-kesejahteraan-mental-pekerja-jateng.webp" alt="Implementasi program kesejahteraan mental pekerja industri manufaktur di jateng" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/master-trainer-sdm-indonesia-power.webp" alt="Master trainer sdm kelir dc saat memberikan in house training untuk indonesia power" loading="lazy" decoding="async"></div>
+
+                <!-- Kloter 3: Dominasi Solo, Magelang, Bantul -->
+                <div class="gallery-item"><img src="img/simulasi-nlp-komunikasi-persuasif-solo.webp" alt="Praktik simulasi nlp dan komunikasi persuasif tingkat tinggi untuk tim sales solo" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/terapi-psikosomatis-trauma-healing-magelang.webp" alt="Proses pemulihan krisis dengan terapi psikosomatis dan trauma healing di magelang" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/konsultan-sistem-sop-hr-umkm-bantul.webp" alt="Rapat penyusunan struktur dan sop bersama konsultan sistem hr umkm bantul" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/art-therapy-kesehatan-mental-karyawan.webp" alt="Pendekatan art therapy untuk memulihkan kesehatan mental karyawan pasca phk" loading="lazy" decoding="async"></div>
+
+                <!-- Kloter 4: Dominasi LSI (Latent Semantic Indexing) & Otoritas Nasional -->
+                <div class="gallery-item"><img src="img/metode-pembelajaran-andragogi-dewasa.webp" alt="Penerapan metode pembelajaran andragogi yang efektif untuk sdm profesional" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/sesi-hipnoterapi-bawah-sadar-kelirdc.webp" alt="Instruktur memberikan instruksi sesi hipnoterapi untuk intervensi alam bawah sadar" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/team-building-psikologi-pertamina.webp" alt="Kegiatan team building berbasis psikologi yang interaktif untuk klien pertamina" loading="lazy" decoding="async"></div>
+                <div class="gallery-item"><img src="img/evaluasi-kinerja-asesmen-psikologis-kemensos.webp" alt="Pelaksanaan evaluasi kinerja dan asesmen psikologis bersama kemensos ri" loading="lazy" decoding="async"></div>
             </div>
             <p style="margin-top:2rem;color:#64748b;font-style:italic;">Bukti otentik transformasi ribuan SDM di berbagai institusi bersama KELIR dc.</p>
         </div>
@@ -205,8 +218,8 @@
             
             <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1.5rem;">
                 
-                <!-- Ganti link WA ini dengan Link URL Artikel Dofollow jika sudah live -->
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/jasa-konsultan-eap-karyawan-stres-yogyakarta.webp" alt="Sesi konseling jasa konsultan eap berbasis psikologi untuk mengatasi karyawan stres di yogyakarta oleh kelir dc" loading="lazy" decoding="async">
                     <div>
                         <h3>Employee Assistance Program (EAP) Jogja</h3>
                         <p>Solusi komprehensif atasi burnout, stres kerja, dan konflik internal yang menghancurkan produktivitas tim Anda.</p>
@@ -215,6 +228,7 @@
                 </a>
 
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/layanan-eap-kecerdasan-emosional-buruh-pabrik-semarang.webp" alt="Pelatihan layanan eap kecerdasan emosional untuk meningkatkan produktivitas buruh pabrik di semarang" loading="lazy" decoding="async">
                     <div>
                         <h3>Layanan EAP Semarang</h3>
                         <p>Intervensi psikologis untuk menjaga stabilitas emosi dan produktivitas buruh/karyawan pabrik skala besar.</p>
@@ -223,6 +237,7 @@
                 </a>
 
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/pelatihan-human-capital-tersertifikasi-bnsp-sleman.webp" alt="Suasana interaktif pelatihan human capital tersertifikasi bnsp bersama master trainer di sleman" loading="lazy" decoding="async">
                     <div>
                         <h3>Pelatihan Human Capital BNSP</h3>
                         <p>Sertifikasi dan peningkatan skill strategis HRD di Sleman untuk mengelola SDM modern secara efektif.</p>
@@ -231,6 +246,7 @@
                 </a>
 
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/pusat-pelatihan-nlp-komunikasi-persuasif-solo.webp" alt="Instruktur ahli memandu simulasi di pusat pelatihan nlp dan kecerdasan emosional solo raya" loading="lazy" decoding="async">
                     <div>
                         <h3>Pelatihan NLP Kecerdasan Emosional</h3>
                         <p>Kuasai teknik komunikasi dan closing bawah sadar yang ampuh untuk tim Sales/Marketing di Solo.</p>
@@ -239,6 +255,7 @@
                 </a>
 
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/spesialis-trauma-healing-psikosomatis-magelang.webp" alt="Proses terapi art therapy oleh spesialis trauma healing dan psikosomatis profesional di magelang" loading="lazy" decoding="async">
                     <div>
                         <h3>Spesialis Trauma Healing</h3>
                         <p>Terapi psikosomatis dan pendampingan mental pasca-PHK massal atau krisis operasional di Magelang.</p>
@@ -247,6 +264,7 @@
                 </a>
 
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/jasa-konsultan-hr-sistem-sop-umkm-bantul.webp" alt="Pembuatan sop operasional bersama jasa konsultan hr sistem umkm paling kredibel di bantul" loading="lazy" decoding="async">
                     <div>
                         <h3>Konsultan Sistem HR UMKM</h3>
                         <p>Bangun SOP, KPI, dan struktur organisasi yang kokoh untuk bisnis menengah yang sedang berkembang di Bantul.</p>
@@ -255,6 +273,7 @@
                 </a>
 
                 <a href="https://wa.me/6281326211319" target="_blank" class="card">
+                    <img src="img/pelatihan-leadership-mind-power-outbound-jawa-tengah.webp" alt="Simulasi manajerial dalam pelatihan leadership mind power berbasis outbound se-jawa tengah" loading="lazy" decoding="async">
                     <div>
                         <h3>Leadership Mind Power</h3>
                         <p>Cetak jajaran manajer tangguh, visioner, dan kebal krisis untuk memimpin korporasi se-Jawa Tengah.</p>
